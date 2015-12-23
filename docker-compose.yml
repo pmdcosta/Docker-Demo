@@ -1,0 +1,9 @@
+demo: 
+  image: ehazlett/docker-demo
+  environment:
+    - INTERLOCK_DATA={"hostname":"siad.docker","domain":"siad.docker"}
+  ports: 
+    - "8080"
+
+redis:
+  image: redis
